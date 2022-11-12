@@ -1,0 +1,139 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+section{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url(img/FondoV.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(124, 1, 155);
+    width: 100%;
+    height: 100px;
+    padding: 0 10%;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.barra ul{
+    display: flex;
+    list-style: none;
+}
+.barra li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 900;
+}
+.barra a{
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+.barra a:hover{
+    text-decoration: underline;
+    color: rgb(255, 209, 139);
+}
+.activo{
+    color: wheat;
+    background-color: #932ac4;
+    padding: 10px;
+}
+.barra h1{
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.redes-socieles{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70px;
+    height: 230px;
+    padding: 10px;
+    background-image: url(img/Redes\ fondo.jpg);
+    border-radius: 0px 10px 10px 0px;
+    position: sticky;
+    top: 400px;
+}
+.redes-socieles ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.redes-socieles li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.redes-socieles img{
+    display: flex;
+    width: 50px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.encuesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/Fondo1-1.png);
+    width: 600px;
+    height: 80vh;
+    border-radius: 10px;
+    border: 5px solid rgb(122, 119, 119);
+    box-shadow: 1px 1px 8px white;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    text-shadow: wheat;
+    margin-top: 20px;
+    text-align: center;
+}
+input{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+text area{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 0px 0px 10px 10px;
+}
+.enviar{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background-color: violet;
+    color: turquoise;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}

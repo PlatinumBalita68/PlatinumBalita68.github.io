@@ -1,0 +1,94 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+section{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url(img/more-leaves-on-green.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(124, 1, 155);
+    width: 100%;
+    height: 70px;
+    padding: 0 10%;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.barra ul{
+    display: flex;
+    list-style: none;
+}
+.barra li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 900;
+}
+.barra a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+.barra a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.activo{
+    color: wheat;
+    background-color: rgb(124, 1, 155);
+    padding: 10px;
+}
+.barra h1{
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.redes-socieles{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70px;
+    height: 230px;
+    padding: 10px;
+    background-image: url(img/Redes\ fondo.jpg);
+    border-radius: 0px 10px 10px 0px;
+    position: sticky;
+    top: 100px;
+}
+.redes-socieles ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.redes-socieles li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.redes-socieles img{
+    display: flex;
+    width: 50px;
+
+}
+.timeline{
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}

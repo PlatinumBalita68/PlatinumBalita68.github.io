@@ -1,0 +1,171 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+section{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url(img/FondoV.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(165, 30, 198);
+    width: 100%;
+    height: 70px;
+    padding: 0 10%;
+    color: rgb(253, 253, 253);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.barra ul{
+    display: flex;
+    list-style: none;
+}
+.barra li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 900;
+}
+.barra a{
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+.barra a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.activo{
+    color: rgb(255, 255, 255);
+    background-color: rgb(165, 30, 198);
+    padding: 10px;
+}
+.barra h1{
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.redes-socieles{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70px;
+    height: 230px;
+    padding: 10px;
+    background-image: url(img/Redes\ fondo.jpg);
+    border-radius: 0px 10px 10px 0px;
+    position: sticky;
+    top: 400px;
+}
+.redes-socieles ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.redes-socieles li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.redes-socieles img{
+    display: flex;
+    width: 50px;
+
+}
+.inicio{
+    display: flex;
+    min-width: 90%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    background-color: rgb(61, 163, 1);
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.primero{
+    display: flex;
+    width: 330px;
+    height: 150px;
+    background-image: url(img/more-leaves-on-green.png);
+    position: absolute;
+    top: 0;
+}
+.primero--foto{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(img/Yo\ b.png);
+    top: 50%;
+    left: calc(50% - 75px);
+    border-radius: 100px;
+}
+.segundo{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 200px;
+    top: calc(50% - 50px);
+}
+.segundo h1{
+    text-align: center;
+}
+.segundo p{
+    text-align: center;
+}
+.tercero{
+    display: flex;
+    position: absolute;
+    top: calc(50% + 100px);
+}
+.tercero ul{
+    display: flex;
+    align-items: center;
+}
+.tercero li{
+    list-style: none;
+    margin: 5px;
+}
+.tecero a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.cuarto{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+}
+.cuarto ul{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.cuarto li{
+    list-style: none;
+}
+.cuarto img{
+    display: flex;
+    width: 50px;
+}

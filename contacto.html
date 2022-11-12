@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercer Parcial</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header class="barra">
+        <h1>RESIDENT EVIL VILLAGE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">MENU</a></li>
+                <li><a href="biografia.html">HISTORIA</a></li>
+                <li><a href="portafolio.html">FIGURAS</a></li>
+                <li><a href="favoritos.html">ARCENAL</a></li>
+                <li><a href="contacto.html" class="activo">AJUSTES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="encuesta">
+            <form action="contacto01" netlify>
+                <label for="nombre">PLAYER NAME</label>
+                <input type="text" name="nombre" id="nombre" required>
+                <label for="correo">E-mail</label>
+                <input type="email" name="correo" id="correo" required>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+                <input type="submit" value="Envia" class="enviar">
+            </form>
+        </div>
+</body>
+</html>
